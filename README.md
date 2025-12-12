@@ -2,10 +2,12 @@
 <!--<img width="536" height="228" alt="image" src="https://github.com/user-attachments/assets/9dac390e-52f9-44d5-825d-28c0b896d68c" />-->
 <img alt="image" src="https://raw.githubusercontent.com/ResAlexander/detachable-18650-pwrbank/refs/heads/main/PCB_PCB_2025-12-12.png" />
 
-A module that can turn a single (detachable) 18650 lithium battery into a power bank, with a reserved 2.54mm peripheral interface. Does not support PD fast charging.
+A module that turns a single (detachable) 18650 lithium battery into a power bank, with a reserved 2.54mm peripheral interface. Does not support PD fast charging.
+
+将单节（可拆卸）18650锂电池变成行动电源的模块，预留了2.54mm的外设接口，不支持PD快充。
+
 The circuit board I ordered hasn't arrived yet. I'll add some details to this readme once it arrives (e.g. actual product image).
 
-一个可以将单节（可拆卸）18650锂电池变成行动电源的模块，并预留了2.54mm的外设接口，不支持PD快充。
 电路板下单还没到货，等到货了我会对这补充点细节，比如实物图。
 
 ## [English Version](#english)
