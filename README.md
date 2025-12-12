@@ -13,8 +13,13 @@ The circuit board I ordered hasn't arrived yet. I'll add some details to this re
 ## [English Version](#english)
 
 # 简体中文
+
 ### 关于充电电流的说明
-通过[ChatGPT辅助我进行的拟合](https://chatgpt.com/share/693c59f9-b63c-8009-9ac4-73db4d6e5613/)，充电电流 Ic ≈ 0.265 + 154458 / R.
+
+通过[ChatGPT辅助我进行的拟合](https://chatgpt.com/share/693c59f9-b63c-8009-9ac4-73db4d6e5613/)，充电电流可被拟合为：
+
+Ic ≈ 0.265 + 154458 / R.
+
 对应原理图：R = R4 + R5 + R6.
 因此，可以通过确定不同的R4、R5、R6取值组合，来选择不同的充电电流选项。
 下面是一些取值组合和对应Ic max的建议值：
@@ -46,6 +51,24 @@ ETA9742采用同口输入/输出。这意味着，「输入」「输出」本质
  - 指示灯可以明确反映充放电状态。
 
 # English
+
+
+### Notes on Charging Current
+
+Based on [the fitting performed with the help of ChatGPT](https://chatgpt.com/share/693c59f9-b63c-8009-9ac4-73db4d6e5613/), the charging current can be approximated as:
+
+Ic ≈ 0.265 + 154458 / R
+
+In the corresponding schematic, R = R4 + R5 + R6
+
+Therefore, by selecting different combinations of R4, R5, and R6, you can configure different charging-current options.
+
+Below are some recommended combinations of resistor values and their corresponding Ic max values:
+| R4   | R5 + R6 | Current Options     | Notes                                                   |
+| ---- | ------- | ------------------- | ------------------------------------------------------- |
+| 100k | 122k    | {1.8A, 0.9A, 200mA} | Original schematic                                      |
+| 56k  | 47k     | {3A, 2A, 200mA}     | High current, *not recommended for non-power batteries* |
+| 91k  | 68k     | {2A, 1.2A, 200mA}   | Seems better than the original                          |
 
 ### ⚠ Warning:
  - No short-circuit. Especially "External Bat Connector".
