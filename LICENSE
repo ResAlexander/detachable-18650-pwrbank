@@ -26,3 +26,19 @@ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
 CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+------------------------------------------------------------
+Additional Terms – Non-Commercial Use Only
+
+This software, including all associated files, documentation,
+and hardware design files, may not be used for commercial
+purposes without explicit written permission from the
+copyright holder.
+
+"Commercial purposes" include, but are not limited to, any
+use of the Work intended for, or directed toward,
+commercial advantage, monetary compensation, or incorporation
+into any product or service offered for sale or paid access.
+
+All other terms of the BSD 3-Clause License remain unchanged.
+------------------------------------------------------------
