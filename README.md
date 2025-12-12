@@ -3,14 +3,16 @@
 <img alt="image" src="https://raw.githubusercontent.com/ResAlexander/detachable-18650-pwrbank/refs/heads/main/PCB_PCB_2025-12-12.png" />
 
 A module that can turn a single (detachable) 18650 lithium battery into a power bank, with a reserved 2.54mm peripheral interface. Does not support PD fast charging.
+The circuit board I ordered hasn't arrived yet. I'll add some details to this readme once it arrives (e.g. actual product image).
 
 一个可以将单节（可拆卸）18650锂电池变成行动电源的模块，并预留了2.54mm的外设接口，不支持PD快充。
+电路板下单还没到货，等到货了我会对这补充点细节，比如实物图。
 
 ## [English Version](#english)
 
 # 简体中文
 
-### ⚠ 警告：
+### ⚠ 开幕雷击：
  - 不准短路，特别是外置电池连接端口。
  - 不要无人充电。
  - 确认使用的电池品质，并确保充放电倍率不超过1C（动力电池的话3C）。
@@ -33,7 +35,12 @@ ETA9742采用同口输入/输出。这意味着，「输入」「输出」本质
 
 # English
 
-### Features:
+### ⚠ Warning:
+ - No short-circuit. Especially "External Bat Connector".
+ - Avoid charging the device unattended.
+ - Verify the quality of the batteries used and ensure the charge and discharge rate does NOT exceed 1C (3C for power batteries).
+
+### 💻 Features:
  - Ibat detection is reserved.
  - With 2 inputs and 3 outputs, it's very easy to use.
  - Expansion receptacles provide stable placement and reserve interfaces for external devices.
@@ -42,14 +49,8 @@ ETA9742采用同口输入/输出。这意味着，「输入」「输出」本质
  - Supports external batteries with 2.54mm terminals. (DO NOT connect in Reverse polarity!)
  - That PCB looks appetizing
 
-### Note:
+### 🟨 Note:
  - ETA9742 uses the same port input and output. That means the inputs and outputs are actually bidirectional; These inputs can also be outputs electrically speaking.
  - If you require simultaneous charging and discharging (e.g., charger -> this power module -> your mobile phone), please first connect this power module to the charger, and then connect your load (mobile phone).
  - Similarly, a phone may reverse-power a power bank (especially when OTG is enabled).
  - Indicators clearly show the charging/discharging status.
-
-
-### Warning:
-1. No short-circuit. Especially "External Bat Connector".
-2. Avoid charging the device unattended.
-3. Verify the quality of the batteries used and ensure the charge and discharge rate does NOT exceed 1C (3C for power batteries).
