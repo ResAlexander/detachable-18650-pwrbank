@@ -1,7 +1,8 @@
 # Detachable 18650 Pwrbank
 <!--<img width="536" height="228" alt="image" src="https://github.com/user-attachments/assets/9dac390e-52f9-44d5-825d-28c0b896d68c" />-->
 <img alt="image" src="https://raw.githubusercontent.com/ResAlexander/detachable-18650-pwrbank/refs/heads/main/PCB_PCB_2025-12-12.png" />
-## English Version Below
+
+[English](#english)
 
 一个可以将单节（可拆卸）18650锂电池变成行动电源的模块，并预留了2.54mm的外设接口，不支持PD快充。
 
@@ -25,6 +26,8 @@ ETA9742采用同口输入/输出。这意味着，「输入」「输出」本质
 1. 不准短路，特别是外置电池连接端口。
 2. 不要无人充电。
 3. 确认使用的电池品质，并确保充放电倍率不超过1C（动力电池的话3C）。
+
+# English
 
 ### Features:
  - Ibat detection is reserved.
