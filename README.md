@@ -2,9 +2,9 @@
 <!--<img width="536" height="228" alt="image" src="https://github.com/user-attachments/assets/9dac390e-52f9-44d5-825d-28c0b896d68c" />-->
 <img alt="image" src="https://raw.githubusercontent.com/ResAlexander/detachable-18650-pwrbank/refs/heads/main/PCB_PCB_2025-12-12.png" />
 
-A module that turns a single (detachable) 18650 lithium battery into a power bank, with a reserved 2.54mm peripheral interface. Does not support PD fast charging.
+A module that turns a single (detachable) 18650 li-ion into a power bank, with a reserved 2.54mm peripheral interface. Does not support PD fast charging (PD may damage a single batt).
 
-将单节（可拆卸）18650锂电池变成行动电源的模块，预留了2.54mm的外设接口，不支持PD快充。
+将单节（可拆卸）18650锂电池变成行动电源的模块，预留了2.54mm的外设接口，不支持PD快充（这可能损坏单独一颗18650）。
 
 The circuit board I ordered hasn't arrived yet. I'll add some details to this readme once it arrives (e.g. actual product image).
 
@@ -13,6 +13,16 @@ The circuit board I ordered hasn't arrived yet. I'll add some details to this re
 ## [English Version](#english)
 
 # 简体中文
+### 关于充电电流的说明
+通过[ChatGPT辅助我进行的拟合](https://chatgpt.com/share/693c59f9-b63c-8009-9ac4-73db4d6e5613/)，充电电流 Ic ≈ 0.265 + 154458 / R.
+对应原理图：R = R4 + R5 + R6.
+因此，可以通过确定不同的R4、R5、R6取值组合，来选择不同的充电电流选项。
+下面是一些取值组合和对应Ic max的建议值：
+| R4 | R5 + R6 | 电流组合 | 备注 |
+|-------|-------|-------|-------|
+| 100k | 122k | {1.8A,0.9A,200mA} | 原理图原图 |
+| 56k | 47k | {3A,2A,200mA} | 大电流，不建议非动力电池 |
+| 91k | 68k | {2A,1.2A,200mA}| 似乎比原图好 |
 
 ### ⚠ 开幕雷击：
  - 不准短路，特别是外置电池连接端口。
