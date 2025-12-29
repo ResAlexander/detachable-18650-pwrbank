@@ -8,7 +8,8 @@ A module that turns a single (detachable) 18650 li-ion into a power bank, with a
 
 The circuit board I ordered hasn't arrived yet. I'll add some details to this readme once it arrives (e.g. actual product image).
 
-电路板下单还没到货，等到货了我会对这补充点细节，比如实物图。
+-- 电路板下单还没到货，等到货了我会对这补充点细节，比如实物图。 --
+d到货并且焊接完成了，我保证今年（2025）结束前更新完
 
 ## [English Version](#english)
 
